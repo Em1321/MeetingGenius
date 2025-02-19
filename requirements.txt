@@ -1,4 +1,4 @@
 fastapi
 uvicorn
-vllm          # or use transformers if needed
-pytest
+transformers
+torch
