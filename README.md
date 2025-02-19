@@ -4,7 +4,7 @@ This project is a Python-based application that uses FastAPI and Hugging Face’
 
 ## Features
 
-- **Detailed Meeting Summary:** Produces an in-depth summary covering key discussion points.
+- **Detailed Meeting Summary:** Produces a brief summary.
 - **Action Items Extraction:** Identifies and lists specific action items from the meeting.
 - **RESTful API:** Built with FastAPI for quick development and interactive documentation.
 - **Console Testing:** Easily test the functions directly from the Python interpreter.
@@ -88,7 +88,7 @@ The API will be available at [http://127.0.0.1:8000](http://127.0.0.1:8000). Vis
 
   ```json
   {
-    "summary": "A detailed summary covering discussion on the software launch, testing feedback, marketing strategy updates, resource requests, and scheduling of a follow-up meeting.",
+    "summary": "A brief summary covering discussion on the software launch.",
     "action_items": "Bullet list of action items: - Alex will address beta issues; - Jenna will draft an updated marketing plan; - Michael will assess resource requirements."
   }
   ```
